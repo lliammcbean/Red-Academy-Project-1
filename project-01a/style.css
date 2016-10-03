@@ -1,0 +1,300 @@
+body {
+    font-size: 1rem;
+    font-family: 'raleway-light';
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+img {
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: 'playfair-display-bold';
+    src: url(assets/fonts/PlayfairDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: 'playfair-display-regular';
+    src: url(assets/fonts/PlayfairDisplay-Regular.otf);
+}
+
+@font-face {
+    font-family: 'raleway-light';
+    src: url(assets/fonts/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: 'raleway-medium';
+    src: url(assets/fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'playfair-display-italic';
+    src: url(assets/fonts/PlayfairDisplay-Italic.otf);
+}
+
+.banner {
+    height: 60px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+h5 {
+    padding: 0;
+    margin: 1px;
+}
+
+.banner1 img {
+    height: 50px;
+    width: 100px;
+    float: left;
+}
+
+.banner2 img {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+.background {
+    background-image: url(assets/images/banner-girl.png), url(assets/images/flower-bkgd.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: auto 90%, 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 30vw;
+    padding-top: 13vw;
+    text-align: center;
+    text-shadow: 1px 1px darkgray;
+}
+
+.background-text1 {
+    font-size: 13px;
+    color: white;
+    font-family: 'raleway-medium';
+}
+
+.background-text2 {
+    font-size: 2.2rem;
+    color: white;
+    font-family: 'playfair-display-regular';
+}
+
+.middle-text {
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color: #2d2d2d;
+}
+
+.middle-text1 {
+    text-align: center;
+    display: inline-block;
+    font-family: 'playfair-display-italic';
+    font-size: 1.7rem;
+}
+
+.middle-text2 {
+    display: inline-block;
+    font-size: 1.7rem;
+    padding-left: 10px;
+}
+
+.middle-text3 {
+    font-family: 'playfair-display-regular';
+    font-size: 0.8rem;
+}
+
+.most-loved-text1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    font-family: 'playfair-display-italic';
+    font-size: 1.7rem;
+    color: #2d2d2d;
+}
+
+.most-loved-text2 {
+    font-family: none, bold;
+    color: #2d2d2d;
+}
+
+.top-tag1 {
+    font-size: 0.5rem;
+    padding: 7px;
+}
+
+.top-tag2 {
+    font-size: 0.5rem;
+    padding: 7px;
+}
+
+.top-tag3 {
+    font-size: 0.5rem;
+    padding: 7px;
+}
+
+.top-tag4 {
+    font-size: 0.5rem;
+    padding: 7px;
+}
+
+.middle-tag1 {
+    font-size: 1rem;
+    padding: 7px;
+    color: #e2574c
+}
+
+.middle-tag2 {
+    font-size: 1rem;
+    padding: 7px;
+    color: #e2574c
+}
+
+.middle-tag3 {
+    font-size: 1rem;
+    padding: 7px;
+    color: #e2574c
+}
+
+.middle-tag4 {
+    font-size: 1rem;
+    padding: 7px;
+    color: #e2574c
+}
+
+.bottom-tag1 {
+    font-size: 0.7rem;
+    padding: 7px;
+    font-family: 'playfair-display-regular';
+    color: darkgray;
+}
+
+.bottom-tag2 {
+    font-size: 0.7rem;
+    padding: 7px;
+    font-family: 'playfair-display-regular';
+    color: darkgray;
+}
+
+.bottom-tag3 {
+    font-size: 0.7rem;
+    padding: 7px;
+    font-family: 'playfair-display-regular';
+    color: darkgray;
+}
+
+.bottom-tag4 {
+    font-size: 0.7rem;
+    padding: 7px;
+    font-family: 'playfair-display-regular';
+    color: darkgray;
+}
+
+.stretch-dress {
+    display: inline-block;
+    height: auto;
+    width: 24%;
+    text-align: center;
+}
+
+.cotton-blue-shirt {
+    display: inline-block;
+    height: auto;
+    width: 24%;
+    text-align: center;
+}
+
+.checked-stretch-dress {
+    display: inline-block;
+    height: auto;
+    width: 24%;
+    text-align: center;
+}
+
+.blue-hipster-backpack {
+    display: inline-block;
+    height: auto;
+    width: 24%;
+    text-align: center;
+}
+
+.e-mail-bar {
+    text-align: center;
+    background-image: url(assets/images/wave-bkgd.jpg);
+    background-size: contain;
+    background-position: bottom center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-size: 100%;
+    color: white;
+    text-shadow: 1px 1px darkgray;
+}
+
+input[type=submit] {
+    background-color: #e2574c;
+    border-radius: 60px;
+}
+
+.e-mail-sub-text1 {
+    font-family: 'playfair-display-italic';
+    font-size: 1.7rem;
+}
+
+.e-mail-sub-text2 {
+    font-family: none, bold;
+}
+
+.copyright {
+    color: white;
+    float: left;
+    font-family: 'playfair-display-regular';
+    font-size: 11px;
+    padding-left: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.copyright p {
+    margin: 2px;
+}
+
+.copyright2 {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.copyright3 {
+    display: inline-block;
+}
+
+.copyright4 {
+    color: darkgray;
+}
+
+.social {
+    float: right;
+    padding-right: 5%;
+    padding-top: 30px;
+    color: white;
+}
+
+.social ul {
+    margin: 5px;
+}
+
+.footer-container {
+    overflow: hidden;
+    background-color: #242424;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+}
